@@ -12,17 +12,18 @@
 <body>
     <header class="site-header">
         <h1>ChessNut</h1>
-        <nav class="header-links">
-            <ul>
-                <li>What We Do</li>
-                <li>Testimonials</li>
-                <li>Our Coaches</li>
-                <li>Enroll Now!</li>
+        <nav class="header-links-container">
+            <ul class="header-links">
+                <li> <a href="#main-testimonials">Testimonials</a></li>
+                <li> <a href="#main-coaches">Our Coaches</a></li>
+                <li> <a href="#main-cta-enroll">Enroll Now!</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
+
+        <!-- Hero header - Copy (Left side) -->
         <section class="main-header-copy">
             <header class="hero-header">
                 <div class="hero-header-title">
@@ -35,18 +36,23 @@
                 </div>
 
                 <div class="header-enroll">
-                    <button class="header-enroll-button">Enroll now</button>
+                    <button class="header-enroll-button">
+                        Enroll now
+                    </button>
                 </div>
             </header>
-        </section>
 
-        <section class="main-header-graphic">
-            <div class="hero-graphic">
-                <img src="" alt="">
+
+            <!-- Hero header - Image (Right side) -->
+            <div class="main-header-graphic">
+                <div class="hero-graphic">
+                    <img src="01.png" alt="">
+                </div>
             </div>
         </section>
 
-        <section class="main-testimonials">
+        <!-- Testiomnials section - takes whole block under hero header. -->
+        <section class="main-testimonials" id="main-testimonials">
             <div class="testimonials-title">
                 Our most successful students
             </div>
@@ -59,7 +65,8 @@
             </div>
         </section>
 
-        <section class="main-coaches">
+        <!-- Coaches section - takes whole block under testimonials. -->
+        <section class="main-coaches" id="main-coaches">
             <div class="coaches-title">
                 Meet our coaches
             </div>
@@ -73,15 +80,23 @@
             </div>
         </section>
 
-        <section class="main-cta-enroll">
+        <!-- CTA section - takes whole block under coaches. -->
+        <section class="main-cta-enroll" id="main-cta-enroll">
             <div class="cta-enroll-container">
                 <div class="cta-copy">
                     <h2 class="cta-copy-header">Ready to start your journey?</h2>
+                </div>
+
+                <div class="cta-button-container">
+                    <button class="cta-button-enroll">
+                        Enroll now
+                    </button>
                 </div>
             </div>
         </section>
     </main>
 
+    <!-- Footer - always persists at bottom-most, even if main has little content. -->
     <footer>
         <div class="footer-container">
             <div class="footer-text">

@@ -3,3 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    padding: 10px 70px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links-container {
+    display: flex;
+}
+
+.header-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-self: center;
+}
+
+.main-header-copy {
+    display: flex;
+}
+
+.hero-header-title {
+    font-size: 50px;
+}
