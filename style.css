@@ -4,17 +4,15 @@
     box-sizing: border-box;
 }
 
-body {
-    padding: 10px 70px;
-}
-
 a {
     text-decoration: none;
+    color: #e5e7eb;
 }
 
 img {
     width: 300px;
     height: auto;
+    /* border-radius: 10%; */
 }
 
 .site-header {
@@ -37,6 +35,16 @@ img {
     display: flex;
 }
 
-.hero-header-title {
-    font-size: 50px;
+.site-header,
+.main-header-copy,
+.site-footer {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#hero-header-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
 }
