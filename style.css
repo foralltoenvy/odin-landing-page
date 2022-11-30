@@ -48,3 +48,16 @@ img {
     font-weight: bolder;
     color: #f9faf8;
 }
+
+.main-testimonials,
+.main-coaches {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonials-container-img,
+.coaches-container-img {
+    display: flex;
+    gap: 40px;
+}
