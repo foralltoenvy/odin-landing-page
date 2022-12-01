@@ -26,6 +26,14 @@ body {
     justify-content: space-between;
 }
 
+.site-header,
+.main-hero,
+.site-footer {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .header-links-container {
     display: flex;
 }
@@ -44,23 +52,15 @@ body {
     height: 650px;
 }
 
-.hero-graphic img {
-    width: 650px;
-}
-
-.site-header,
-.main-hero,
-.site-footer {
-    background-color: #1f2937;
-    font-size: 18px;
-    color: #e5e7eb;
-}
-
 .hero-header-title {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
     width: 600px;
+}
+
+.hero-graphic img {
+    width: 650px;
 }
 
 .main-testimonials,
