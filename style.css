@@ -49,14 +49,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 650px;
+    height: 620px;
 }
 
 .hero-header-title {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
-    width: 600px;
+    width: 700px;
 }
 
 .hero-graphic img {
