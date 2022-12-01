@@ -1,4 +1,4 @@
-# TOP-landing-page
+# odin-landing-page
 Landing Page project for TOP Foundations course
 
 ## Reference Images
