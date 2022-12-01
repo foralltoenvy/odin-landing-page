@@ -24,6 +24,7 @@ body {
 .site-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .site-header,
@@ -32,6 +33,15 @@ body {
     background-color: #1f2937;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.header-logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo-container img {
+    width: 70px;
 }
 
 .header-links-container {
@@ -78,5 +88,13 @@ body {
 
 .main-cta-enroll {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-footer {
+    height: 40px;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
