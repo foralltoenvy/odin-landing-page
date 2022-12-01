@@ -43,7 +43,7 @@ img {
     color: #e5e7eb;
 }
 
-#hero-header-title {
+.hero-header-title {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
@@ -60,4 +60,9 @@ img {
 .coaches-container-img {
     display: flex;
     gap: 40px;
+}
+
+.main-cta-enroll {
+    display: flex;
+    align-items: center;
 }
