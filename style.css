@@ -125,11 +125,6 @@ img {
     gap: 40px;
 }
 
-.student.tag {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .main-cta-enroll {
     padding: 20px;
     border-radius: 8px;
