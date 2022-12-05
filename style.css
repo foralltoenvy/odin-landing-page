@@ -98,17 +98,21 @@ img {
     width: 650px;
 }
 
-.title {
+.coach-title,
+.testimonial-title {
     color: #1f2937;
     font-size: 36px;
     font-weight: bolder;
 }
 
-.tag {
+.tag,
+.person-name {
     color: #1f2937;
     display: flex;
     justify-content: center;
     align-self: center;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .main-coach,
@@ -119,10 +123,25 @@ img {
     align-items: center;
 }
 
-.testimonial-container-img,
-.coach-container-img {
+.testimonial-container,
+.coach-container {
     display: flex;
     gap: 40px;
+}
+
+.student-profile {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial {
+    font-style: italic;
+}
+
+.person-name {
+    font-weight: bold;
 }
 
 .main-cta-enroll {
